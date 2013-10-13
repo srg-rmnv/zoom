@@ -22,5 +22,6 @@ gem 'jquery-rails', '~> 2.3.0'
 
 
 group :production do
+  gem 'mysql2'
   gem 'thin'
 end
